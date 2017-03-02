@@ -1005,14 +1005,14 @@
         }
 
         ctx.drawImage(this.elements.preview, left, top, width, height, startX, startY, outWidth, outHeight);
-        if (circle) {
-            ctx.fillStyle = '#fff';
-            ctx.globalCompositeOperation = 'destination-in';
-            ctx.beginPath();
-            ctx.arc(outWidth / 2, outHeight / 2, outWidth / 2, 0, Math.PI * 2, true);
-            ctx.closePath();
-            ctx.fill();
-        }
+        // if (circle) {
+        //     ctx.fillStyle = '#fff';
+        //     ctx.globalCompositeOperation = 'destination-in';
+        //     ctx.beginPath();
+        //     ctx.arc(outWidth / 2, outHeight / 2, outWidth / 2, 0, Math.PI * 2, true);
+        //     ctx.closePath();
+        //     ctx.fill();
+        // }
         return canvas;
     }
 
